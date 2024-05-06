@@ -30,7 +30,7 @@ const { copy, copied, isSupported } = useClipboard()
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col justify-center m-3">
     <div class="flex flex-col w-1/4">
       <label for="personCount" class="block text-gray-700 text-sm font-bold mb-2">Nombre de {{ props.entity }}</label>
       <div class="flex items-center justify-end gap-3">
