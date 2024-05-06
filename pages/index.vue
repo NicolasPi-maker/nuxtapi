@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <NavMenu />
+  <h1>Bienvenue</h1>
 </template>
 
 <style scoped>

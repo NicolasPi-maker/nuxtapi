@@ -11,6 +11,7 @@
 <script setup>
 
 const menu = [
+  {path: '/', name: 'Home'},
   {path: '/users', name: 'Users'},
   {path: '/books', name: 'Books'},
   {path: '/posts', name: 'Posts'},
