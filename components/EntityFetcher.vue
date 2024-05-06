@@ -48,7 +48,7 @@ const { copy, copied, isSupported } = useClipboard()
     <p v-else>
       Your browser does not support Clipboard API
     </p>
-    <Icon v-if="loading" name="line-md:downloading-loop" color="black" />
+<!--    <Icon v-if="loading" name="line-md:downloading-loop" color="black" />-->
     <pre>
       {{ state.entities }}
     </pre>
